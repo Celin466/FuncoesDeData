@@ -1,5 +1,5 @@
 # FuncoesDeData
-1- Função para comparar datas<br/>
+<h2>1- Função para comparar datas</h2><br/>
 <br/>
 function compararData(data1, data2) {<br/>
     if (data1.getTime() > data2.getTime()) {<br/>
@@ -11,7 +11,7 @@ function compararData(data1, data2) {<br/>
 Ela recebe dos inputs da tela as datas e faz a comparação  pegando o tempo das datas e comparando se a primeira é maior que a segunda, se for retorna a primeira, se não, automaticamente
   retorna a segunda.<br/>
 <br/>
-  2- Função para calcular o intervalo entre as datas sendo que a primeira data obrigatoramente vai ser a maior.<br/>
+  <h2>2- Função para calcular o intervalo entre as datas sendo que a primeira data obrigatoramente vai ser a maior.</h2><br/>
   function intervaloData(data1, data2) {<br/>
     if (data1.getTime() >= data2.getTime()) {<br/>
         alert("Primeira data deve ser mais antiga!");<br/>
@@ -22,7 +22,7 @@ Ela recebe dos inputs da tela as datas e faz a comparação  pegando o tempo das
 <br/>
 A função recebe os parâmetros vindos dos inputs da tela, e faz a comparação utilizando o getTime nas variaveis do tipo data de data1 e data2, ele vai pegar a data por completo, e retornar os milesegundos de  1 de Janeiro de 1970 00:00:00 até a data atual, faz a validação para verificar se a primeira é maior, se não retorna a data em segundos para o alert que está chamando.<br/>
 <br/>
-3- Função que retorna a data atual no formato: hora:minuto - dia/mês/ano.<br/>
+<h2>3- Função que retorna a data atual no formato: hora:minuto - dia/mês/ano.</h2><br/>
 function converterData(dataAtual) {<br/>
     let ano = (dataAtual.getFullYear()).toString();<br/>
     let mes = (dataAtual.getMonth() + 1).toString();<br/>
